@@ -33,91 +33,90 @@
     br
     .row.justify-content-center
           .col-lg-10
-            .cajon.color-acento-botones.p-4
+            .tarjeta-cajon-secundario.p-4
               .row.justify-content-center.align-items-center
-                .col-3.col-md-2
+                .col-lg-1.d-none.d-lg-block
                   figure
                     img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
-                .col-9.col-md-10
+                .col-lg-11
                   p.mb-0 #[b Clave:] un plan de mejora sin indicadores de verificación y sin responsables nominados, es solo una lista de buenos deseos. La diferencia entre un plan efectivo y uno inútil está en la concreción, el seguimiento y el compromiso real de los involucrados.
     separador
     .titulo-segundo.color-acento-contenido
       h2 4.1 Elaboración del plan de mejora
-    br
-    p La elaboración es la fase de diseño del plan. Comprende identificar las brechas, analizar sus causas raíz y estructurar las acciones de respuesta con todos sus atributos. Un plan bien elaborado hace que la ejecución y el seguimiento sean viables y efectivos.
-    br
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4
-      h4.mb-0 Pasos para elaborar el plan
-    br
-    p A continuación, se describen los pasos para elaborar un plan de mejora de forma estructurada y sistemática. Estos pasos permiten transformar hallazgos y brechas identificadas en acciones concretas, medibles y asignables, facilitando su ejecución, seguimiento y evaluación de resultados:
-    br
-    .row.justify-content-center
-      .col-lg-10
-        LineaTiempoE.color-primario
-          //- PASO 1
-          .row(titulo="Paso 1")
-            .col-lg-2
-              figure
-                img(src='@/assets/curso/Temas/tema4/img3.svg', alt='Identificar brecha')
-            .col-lg-10.mb-4.mb-lg-0
-              h3 Identificar la brecha o no conformidad
-              p Partir de los resultados de una evaluación: auditoría, retrospectiva, revisión de métricas o queja del cliente. Describir el hallazgo con precisión y evidencia objetiva.
 
-          //- PASO 2
-          .row(titulo="Paso 2")
-            .col-lg-2.mb-.mb-lg-0
-              figure
-                img(src='@/assets/curso/Temas/tema4/img4.svg', alt='Causa raíz')
-            .col-lg-10
-              h3 Analizar la causa raíz
-              p Aplicar técnicas de análisis causal: 5 Porqués, diagrama de Ishikawa, FMEA o árbol de fallas. No actuar sobre síntomas sino sobre causas sistémicas.
+    p.mb-4 La elaboración es la fase de diseño del plan. Comprende identificar las brechas, analizar sus causas raíz y estructurar las acciones de respuesta con todos sus atributos. Un plan bien elaborado hace que la ejecución y el seguimiento sean viables y efectivos.
 
-          //- PASO 3
-          .row(titulo="Paso 3")
-            .col-lg-2
-              figure
-                img(src='@/assets/curso/Temas/tema4/img5.svg', alt='Objetivo SMART')
-            .col-lg-10.mb-4.mb-lg-0
-              h3 Definir el objetivo de mejora SMART
-              p Específico, medible, alcanzable, relevante y con Tiempo definido. Ejemplo: "Reducir densidad de defectos de 3 a 0.8 bugs/KLOC en 3 meses".
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Pasos para elaborar el plan
 
-          //- PASO 4
-          .row(titulo="Paso 4")
-            .col-lg-2.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/Temas/tema4/img6.svg', alt='Acciones concretas')
-            .col-lg-10
-              h3 Proponer acciones concretas
-              p Para cada causa raíz, definir al menos una acción. Usar verbos en infinitivo: implementar, capacitar, automatizar, establecer.
+    p.mb-4 A continuación, se describen los pasos para elaborar un plan de mejora de forma estructurada y sistemática. Estos pasos permiten transformar hallazgos y brechas identificadas en acciones concretas, medibles y asignables, facilitando su ejecución, seguimiento y evaluación de resultados:
+    .tarjeta--BMG05
+      .row.justify-content-center
+        .col-lg-10
+          LineaTiempoE.color-primario
+            //- PASO 1
+            .row(titulo="Paso 1")
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img3.svg', alt='Identificar brecha')
+              .col-lg-10.mb-4.mb-lg-0
+                h3 Identificar la brecha o no conformidad
+                p Partir de los resultados de una evaluación: auditoría, retrospectiva, revisión de métricas o queja del cliente. Describir el hallazgo con precisión y evidencia objetiva.
 
-          //- PASO 5
-          .row(titulo="Paso 5")
-            .col-lg-2
-              figure
-                img(src='@/assets/curso/Temas/tema4/img7.svg', alt='Responsables')
-            .col-lg-10.mb-4.mb-lg-0
-              h3 Asignar responsables y recursos
-              p Nominar un Accountable (A) y un Responsible (R) para cada acción. Estimar recursos: tiempo, herramientas, capacitación, presupuesto.
+            //- PASO 2
+            .row(titulo="Paso 2")
+              .col-lg-2.mb-.mb-lg-0
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img4.svg', alt='Causa raíz')
+              .col-lg-10
+                h3 Analizar la causa raíz
+                p Aplicar técnicas de análisis causal: 5 Porqués, diagrama de Ishikawa, FMEA o árbol de fallas. No actuar sobre síntomas sino sobre causas sistémicas.
 
-          //- PASO 6
-          .row(titulo="Paso 6")
-            .col-lg-2.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/Temas/tema4/img8.svg', alt='Indicadores')
-            .col-lg-10
-              h3 Establecer indicadores y fechas
-              p Definir el KPI que medirá el éxito y la fecha límite de cumplimiento. El indicador debe ser verificable con datos objetivos.
+            //- PASO 3
+            .row(titulo="Paso 3")
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img5.svg', alt='Objetivo SMART')
+              .col-lg-10.mb-4.mb-lg-0
+                h3 Definir el objetivo de mejora SMART
+                p Específico, medible, alcanzable, relevante y con Tiempo definido. Ejemplo: "Reducir densidad de defectos de 3 a 0.8 bugs/KLOC en 3 meses".
 
-          //- PASO 7
-          .row(titulo="Paso 7")
-            .col-lg-2
-              figure
-                img(src='@/assets/curso/Temas/tema4/img9.svg', alt='Socializar')
-            .col-lg-10.mb-4.mb-lg-0
-              h3 Documentar y socializar
-              p El plan debe ser aprobado por el Accountable (A), socializado con todos los involucrados y almacenado en un lugar accesible. Un plan que nadie conoce no se ejecuta.
+            //- PASO 4
+            .row(titulo="Paso 4")
+              .col-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img6.svg', alt='Acciones concretas')
+              .col-lg-10
+                h3 Proponer acciones concretas
+                p Para cada causa raíz, definir al menos una acción. Usar verbos en infinitivo: implementar, capacitar, automatizar, establecer.
+
+            //- PASO 5
+            .row(titulo="Paso 5")
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img7.svg', alt='Responsables')
+              .col-lg-10.mb-4.mb-lg-0
+                h3 Asignar responsables y recursos
+                p Nominar un Accountable (A) y un Responsible (R) para cada acción. Estimar recursos: tiempo, herramientas, capacitación, presupuesto.
+
+            //- PASO 6
+            .row(titulo="Paso 6")
+              .col-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img8.svg', alt='Indicadores')
+              .col-lg-10
+                h3 Establecer indicadores y fechas
+                p Definir el KPI que medirá el éxito y la fecha límite de cumplimiento. El indicador debe ser verificable con datos objetivos.
+
+            //- PASO 7
+            .row(titulo="Paso 7")
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/Temas/tema4/img9.svg', alt='Socializar')
+              .col-lg-10.mb-4.mb-lg-0
+                h3 Documentar y socializar
+                p El plan debe ser aprobado por el Accountable (A), socializado con todos los involucrados y almacenado en un lugar accesible. Un plan que nadie conoce no se ejecuta.
     br
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.order-1.order-lg-2
@@ -207,10 +206,9 @@
                 td Dato que demuestra cumplimiento.
                 td Reporte JaCoCo con cobertura 74 %.
     br
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4
-      h4.mb-0 Técnica de los 5 Porqués — Ejemplo aplicado
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Técnica de los 5 Porqués — Ejemplo aplicado
     br
     p A continuación, se presenta un ejemplo aplicado de la Técnica de los 5 Porqués, con el fin de ilustrar su uso práctico en la identificación de la causa raíz de un problema recurrente en proyectos de software y la definición de una acción correctiva concreta y accionable:
     br
@@ -336,10 +334,9 @@
     br
     p Las acciones preventivas eliminan causas de no conformidades potenciales, antes de que ocurran. Se basan en análisis de riesgo, lecciones aprendidas de proyectos anteriores y tendencias de indicadores que aún no son críticos, pero muestran deterioro.
     br
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4
-      h4.mb-0 Acciones de mejoramiento
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Acciones de mejoramiento
     br
     .row.justify-content-center.align-items-center.mb-5
       .col-4.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
@@ -452,12 +449,12 @@
     br
     .row.justify-content-center
           .col-lg-10
-            .cajon.color-acento-botones.p-4
+            .tarjeta-cajon-secundario.p-4
               .row.justify-content-center.align-items-center
-                .col-3.col-md-2
+                .col-lg-1.d-none.d-lg-block
                   figure
                     img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
-                .col-9.col-md-10
+                .col-lg-11
                   p.mb-0 #[b Fuentes para identificar preventivas y mejoramiento:] análisis de riesgos (FMEA, matriz de riesgos), benchmarking con la industria, sugerencias del equipo en retrospectivas, auditorías internas proactivas y revisión de tendencias de métricas de calidad.
     separador
     .titulo-segundo.color-acento-contenido
@@ -609,22 +606,22 @@
     .row.justify-content-center.align-items-center
       .col-10
         .titulo-sexto.color-primario.mb-3
-          h5 Figura 1.
+          h5 Figura 2.
           span Perfiles de responsables en proyectos desarrollo de software
         figure
           picture
-            source(media="(min-width: 992px)" srcset="@/assets/curso/Temas/tema4/img21.png")
-            img(src="@/assets/curso/Temas/tema4/img21_1.png" alt="Adornos flotantes")
+            source(media="(min-width: 992px)" srcset="@/assets/curso/Temas/tema4/img21.svg")
+            img(src="@/assets/curso/Temas/tema4/img21_1.svg" alt="Adornos flotantes")
     br
     .row.justify-content-center
-          .col-lg-10
-            .cajon.color-acento-botones.p-4
-              .row.justify-content-center.align-items-center
-                .col-3.col-md-2
-                  figure
-                    img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
-                .col-9.col-md-10
-                  p.mb-0 #[b Regla de oro RACI:]  una acción debe tener exactamente un Accountable (A). Si hay más de uno, la responsabilidad se diluye y en la práctica nadie se siente verdaderamente responsable del resultado final.
+      .col-lg-10
+        .tarjeta-cajon-secundario.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-1.d-none.d-lg-block
+              figure
+                img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
+            .col-lg-11
+              p.mb-0 #[b Regla de oro RACI:]  una acción debe tener exactamente un Accountable (A). Si hay más de uno, la responsabilidad se diluye y en la práctica nadie se siente verdaderamente responsable del resultado final.
     separador
     .titulo-segundo.color-acento-contenido
       h2 4.5 Verificación y seguimiento
@@ -649,7 +646,7 @@
           ImagenInfografica.color-primario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/Temas/tema4/img23.png', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/Temas/tema4/img23.svg', alt='Infografía de matriz RACI')
                 
 
             .tarjeta.color-acento-botones.p-3(x="64%" y="16%" numero="+")
@@ -675,10 +672,9 @@
           figure
             img(src='@/assets/curso/Temas/tema4/img23_1.png', alt='Matriz RACI para dispositivos móviles')
     br
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4
-      h4.mb-0 Tipos de evidencias de verificación
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Tipos de evidencias de verificación
     br
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -695,14 +691,14 @@
             img.mx-auto.d-block(src='@/assets/curso/Temas/tema4/img25.png', alt='Ilustración de persona trabajando con engranajes y computadoras')        
     br
     .row.justify-content-center
-          .col-lg-10
-            .cajon.color-acento-botones.p-4
-              .row.justify-content-center.align-items-center
-                .col-3.col-md-2
-                  figure
-                    img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
-                .col-9.col-md-10
-                  p.mb-0 #[b Buena práctica:] el seguimiento tardío convierte problemas solucionables en incumplimientos definitivos. Detectar que una acción está “En riesgo” con 3 semanas de anticipación, permite tomar medidas correctivas. Detectarlo el día del vencimiento no permite ninguna acción.
+      .col-lg-10
+        .tarjeta-cajon-secundario.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-1.d-none.d-lg-block
+              figure
+                img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
+            .col-lg-11
+              p.mb-0 #[b Buena práctica:] el seguimiento tardío convierte problemas solucionables en incumplimientos definitivos. Detectar que una acción está “En riesgo” con 3 semanas de anticipación, permite tomar medidas correctivas. Detectarlo el día del vencimiento no permite ninguna acción.
 </template>
 
 <script>

@@ -154,7 +154,6 @@
               img(src="@/assets/curso/Temas/tema1/img14.png" alt="Icono seguridad")
 
     .row.mb-4
-      .col-1
       .col-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.

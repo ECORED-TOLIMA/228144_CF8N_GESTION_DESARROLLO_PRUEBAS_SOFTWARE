@@ -11,7 +11,7 @@
         figure
           img(src="@/assets/curso/Temas/tema3/img1.png", alt="alt")
       .col-lg-8.col-md-7
-        .p-4(style="background-color: #EDE3F7;")
+        .tarjeta.BG03.p-5
           .row.align-items-center
             .col-3.col-sm-2.col-lg-2.mb-3.mb-sm-2
               figure
@@ -23,7 +23,7 @@
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/Temas/tema3/img3.png' alt='AvatarTop')
-          .tarjeta.color-primario.shadow
+          .tarjeta.BG033
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
@@ -33,7 +33,7 @@
       .col-10.col-md-6.col-lg-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/Temas/tema3/img4.png' alt='AvatarTop')
-          .tarjeta.color-primario.shadow
+          .tarjeta.BG033
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
@@ -43,9 +43,9 @@
     br
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-botones.p-4
+        .tarjeta-cajon-secundario.p-4
           .row.justify-content-center.align-items-center
-            .col-3.col-md-2
+            .col-lg-1.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
             .col-9.col-md-10
@@ -58,17 +58,16 @@
     br
     p.mb La gestión del conocimiento se ha consolidado como un pilar estratégico para las organizaciones que buscan aprender, innovar y sostener ventajas competitivas en entornos complejos y cambiantes. Para comprender cómo el conocimiento se crea, circula y se aprovecha de manera sistemática, diversos autores han propuesto modelos conceptuales y operativos que orientan su gestión. Es así, como se presentan dos de los enfoques más reconocidos y complementarios:
     br
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4
-      h4.mb-0 A.Modelo SECI — Nonaka & Takeuchi (1995)
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5  A.Modelo SECI — Nonaka & Takeuchi (1995)
     br
     .row.justify-content-center.align-items-center.mb-5
       .col-4.col-lg-3.mb-3.mb-lg-0
         figure
           img.mx-auto.d-block(src="@/assets/curso/Temas/tema3/img5.png" alt="Imagen modelo SECI")
       .col-lg-9
-        .cajon.color-primario.p-4
+        .tarjeta.BG03.p-4
           p.mb-0 El modelo SECI es el marco teórico más influyente en gestión del conocimiento. Describe cómo el conocimiento se crea y transforma en las organizaciones a través de cuatro procesos de conversión. La dinámica no es lineal sino en espiral: cada ciclo genera conocimiento de mayor nivel de complejidad y valor. Cada una de sus fases se detalla de la siguiente manera:
     br
     .row
@@ -102,10 +101,9 @@
                 td Explícito a Tácito. Aprender haciendo a partir de documentación y casos documentados.
                 td Seguir un manual hasta desarrollar habilidad práctica, estudiar proyectos anteriores.
     br
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4
-      h4.mb-0 B.Modelo de procesos organizacionales — Probst, Raub & Romhardt (2001)
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5  B.Modelo de procesos organizacionales — Probst, Raub & Romhardt (2001)
     p.mb Este modelo pragmático identifica siete procesos interconectados de gestión del conocimiento. A diferencia del SECI (más teórico), ofrece una guía operacional de qué hacer en cada etapa para gestionar el conocimiento organizacional de forma efectiva y se explica de a continuación:
      br
     .row
@@ -153,9 +151,9 @@
     br
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-botones.p-4
+        .tarjeta-cajon-secundario.p-4
           .row.justify-content-center.align-items-center
-            .col-3.col-md-2
+            .col-lg-1.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
             .col-9.col-md-10
@@ -163,76 +161,76 @@
     separador
     .titulo-segundo.color-acento-contenido
       h2 3.2 Lecciones aprendidas en proyectos de software
-    br
-    p.mb Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de software.
-    br
-    .row.justify-content-center.align-items-center.py-5.position-relative
-      .col-lg-4.d-none.d-lg-block
-        figure
-          img(src="@/assets/curso/Temas/tema3/img6.png" alt="Persona con laptop")
-      .col-lg-8.col-11
-        SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img7.svg' alt='Icono')
-            h4.text-center Título descriptivo
-            p.text-center Qué ocurrió, breve y claro.
 
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img8.svg' alt='Icono')
-            h4.text-center Área o categoría
-            p.text-center Planificación, código, calidad, equipo, seguridad, etc.
+    p.mb-4 Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de software.
 
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img9.svg' alt='Icono')
-            h4.text-center Descripción del problema
-            p.text-center Qué pasó exactamente.
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img10.svg' alt='Icono')
-            h4.text-center Causas raíz identificadas
-            p.text-center Por qué ocurrió (técnica de los 5 Porqués).
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img11.svg' alt='Icono')
-            h4.text-center Impacto en el proyecto
-            p.text-center Tiempo, costo, calidad, satisfacción del cliente.
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img12.svg' alt='Icono')
-            h4.text-center Solución aplicada
-            p.text-center Qué se hizo para resolverlo.
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img13.svg' alt='Icono')
-            h4.text-center Recomendación
-            p.text-center Qué hacer para evitarlo en proyectos futuros.
-          .tarjeta.tarjeta-blanca-custom.p-4
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/Temas/tema3/img14.svg' alt='Icono')
-            h4.text-center Responsable
-            p.text-center Del registro y fecha.
-    br
-    p.mb La siguiente tabla presenta un conjunto de lecciones aprendidas obtenidas de experiencias recurrentes en proyectos de desarrollo de software. Su sistematización permite identificar problemas frecuentes y establecer recomendaciones prácticas para mejorar la gestión y ejecución de futuros proyectos:
-    br
-    .row
-      .col-1
-      .col-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 5.
-          span Lecciones aprendidas recurrentes en proyectos de desarrollo de software
-        .tabla-a.color-acento-contenido
-          .tabla-a.color-acento-botones.mb-5
+    .tarjeta--BMG06.px-5
+      .row.justify-content-center.align-items-center.py-5.position-relative
+        .col-lg-4.d-none.d-lg-block
+          figure
+            img(src="@/assets/curso/Temas/tema3/img6.png" alt="Persona con laptop")
+        .col-lg-8.col-11
+          SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img7.svg' alt='Icono')
+              h4.text-center Título descriptivo
+              p.text-center Qué ocurrió, breve y claro.
+
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img8.svg' alt='Icono')
+              h4.text-center Área o categoría
+              p.text-center Planificación, código, calidad, equipo, seguridad, etc.
+
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img9.svg' alt='Icono')
+              h4.text-center Descripción del problema
+              p.text-center Qué pasó exactamente.
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img10.svg' alt='Icono')
+              h4.text-center Causas raíz identificadas
+              p.text-center Por qué ocurrió (técnica de los 5 Porqués).
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img11.svg' alt='Icono')
+              h4.text-center Impacto en el proyecto
+              p.text-center Tiempo, costo, calidad, satisfacción del cliente.
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img12.svg' alt='Icono')
+              h4.text-center Solución aplicada
+              p.text-center Qué se hizo para resolverlo.
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img13.svg' alt='Icono')
+              h4.text-center Recomendación
+              p.text-center Qué hacer para evitarlo en proyectos futuros.
+            .tarjeta.tarjeta-blanca.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/Temas/tema3/img14.svg' alt='Icono')
+              h4.text-center Responsable
+              p.text-center Del registro y fecha.
+    .BMG1.px-5
+      p.mt-5.mb-4 La siguiente tabla presenta un conjunto de lecciones aprendidas obtenidas de experiencias recurrentes en proyectos de desarrollo de software. Su sistematización permite identificar problemas frecuentes y establecer recomendaciones prácticas para mejorar la gestión y ejecución de futuros proyectos:
+    
+      .row
+        .col-1
+        .col-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 5.
+            span Lecciones aprendidas recurrentes en proyectos de desarrollo de software
+          .tabla-a.color-acento-contenido
             table
               thead
                 tr
@@ -284,9 +282,9 @@
     br
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-botones.p-4
+        .tarjeta-cajon-secundario.p-4
           .row.justify-content-center.align-items-center
-            .col-3.col-md-2
+            .col-lg-1.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
             .col-9.col-md-10
